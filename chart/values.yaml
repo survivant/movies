@@ -14,5 +14,6 @@ mongodb:
 tomcat:
   tomcatUsername: admin
   tomcatPassword: admin
+  tomcatAllowRemoteManagement: 1
   persistence:
     size: 3Gi
