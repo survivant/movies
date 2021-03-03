@@ -39,13 +39,13 @@ spec:
               name: mongodb
               key: mongodb-root-password
         - name: MONGODB_USERNAME
-          value: "okteto"
+          value: {{ .Values.mongodb.username }}
         - name: MONGODB_SYSTEM_LOG_VERBOSITY
           value: "0"
         - name: MONGODB_DISABLE_SYSTEM_LOG
           value: "no"
         - name: MONGODB_DATABASE
-          value: "okteto"
+          value: {{ .Values.mongodb.database }}
         - name: MONGODB_ENABLE_IPV6
           value: "no"
         - name: MONGODB_ENABLE_DIRECTORY_PER_DB

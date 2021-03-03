@@ -9,7 +9,9 @@ frontend:
   image: okteto.dev/frontend
 
 mongodb:
-  password: "Password!1@2"
+  password: "patate12345"
+  database: "simulation"
+  username: "my_user"
   
 tomcat:
   tomcatUsername: admin
