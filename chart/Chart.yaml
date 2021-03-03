@@ -8,5 +8,5 @@ icon: https://apps.okteto.com/movies/icon.png
 dependencies:
   - name: tomcat
     version: 2.2.2
-    repository: "@bitnami"
+    #repository: "@bitnami"
     
