@@ -10,3 +10,9 @@ frontend:
 
 mongodb:
   password: "Password!1@2"
+  
+tomcat:
+  tomcatUsername: admin
+  tomcatPassword: admin
+  persistence:
+    size: 3Gi
