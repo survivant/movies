@@ -27,4 +27,4 @@ tomcat:
   tomcatPassword: admin
   tomcatAllowRemoteManagement: 1
   persistence:
-    size: 3Gi
+    size: 2Gi
