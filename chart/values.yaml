@@ -14,6 +14,11 @@ mongodb:
   username: "my_user"
   
 tomcat:
+  image:
+    registry: docker.io
+    repository: bitnami/tomcat
+    tag: 8.5.40
+
   tomcatUsername: admin
   tomcatPassword: admin
   tomcatAllowRemoteManagement: 1
