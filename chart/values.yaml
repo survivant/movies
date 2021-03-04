@@ -14,8 +14,8 @@ mongodb:
     password: "patate12345"
     database: "admin"
     username: "my_user"
-  requests:
-    storage: 2Gi
+  persistence:
+    size: 2Gi
 
 tomcat:
   image:
