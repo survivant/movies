@@ -10,6 +10,7 @@ frontend:
 
 mongodb:
   auth:
+    rootPassword: "patate12345"
     password: "patate12345"
     database: "admin"
     username: "my_user"
