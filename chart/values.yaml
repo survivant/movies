@@ -9,10 +9,11 @@ frontend:
   image: okteto.dev/frontend
 
 mongodb:
-  password: "patate12345"
-  database: "simulation"
-  username: "my_user"
-  
+  auth:
+    password: "patate12345"
+    database: "admin"
+    username: "my_user"
+
 tomcat:
   image:
     registry: docker.io

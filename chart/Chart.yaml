@@ -8,5 +8,8 @@ icon: https://apps.okteto.com/movies/icon.png
 dependencies:
   - name: tomcat
     version: 8.2.3
-    repository: "@bitnami"
+    #repository: "@bitnami"
+  - name: mongodb
+    version: 10.7.2
+    #repository: "@bitnami"
     
