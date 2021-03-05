@@ -28,3 +28,5 @@ tomcat:
   tomcatAllowRemoteManagement: 1
   persistence:
     size: 3Gi
+  ingress:
+    enabled: true
