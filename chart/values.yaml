@@ -29,4 +29,5 @@ tomcat:
   persistence:
     size: 3Gi
   ingress:
-    enabled: false
+    enabled: true
+    hostname: survivant.cloud.okteto.com
