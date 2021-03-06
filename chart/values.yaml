@@ -30,4 +30,4 @@ tomcat:
     size: 3Gi
   ingress:
     enabled: true
-    hostname: survivant.cloud.okteto.com
+    hostname: survivant.cloud.okteto.net
