@@ -3,7 +3,7 @@ tomcat:
     registry: docker.io
     repository: bitnami/tomcat
     tag: 8.5.40
-
+ 
   tomcatUsername: admin
   tomcatPassword: admin
   tomcatAllowRemoteManagement: 1
