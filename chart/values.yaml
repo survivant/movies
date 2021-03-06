@@ -1,22 +1,3 @@
-tag: dev
-
-api:
-  replicaCount: 1
-  image: okteto.dev/api
-
-frontend:
-  replicaCount: 1
-  image: okteto.dev/frontend
-
-mongodb:
-  auth:
-    rootPassword: "patate12345"
-    password: "patate12345"
-    database: "admin"
-    username: "my_user"
-  persistence:
-    size: 1500Mi
-
 tomcat:
   image:
     registry: docker.io
@@ -30,4 +11,6 @@ tomcat:
     size: 3Gi
   ingress:
     enabled: true
-    hostname: survivant.cloud.okteto.net
+    hostname: simulation-survivant.cloud.okteto.net
+  commonAnnotations: |
+    dev.okteto.com/generate-host: "true"
