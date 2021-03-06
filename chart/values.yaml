@@ -29,4 +29,4 @@ tomcat:
   persistence:
     size: 3Gi
   ingress:
-    enabled: true
+    enabled: false
