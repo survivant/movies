@@ -15,9 +15,9 @@ tomcat:
   commonAnnotations: |
     dev.okteto.com/generate-host: "true"
   resources:
-    limits: { }
+    limits:
        cpu: 3500m
-       memory: 6Gi
-    requests: { }
+       memory: 7Gi
+    requests:
        cpu: 1000m
-       memory: 6Gi
+       memory: 2Gi
