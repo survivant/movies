@@ -3,7 +3,7 @@ tomcat:
     registry: docker.io
     repository: bitnami/tomcat
     tag: 8.5.40
- 
+
   tomcatUsername: admin
   tomcatPassword: admin
   tomcatAllowRemoteManagement: 1
@@ -14,3 +14,10 @@ tomcat:
     hostname: simulation-survivant.cloud.okteto.net
   commonAnnotations: |
     dev.okteto.com/generate-host: "true"
+  resources:
+    limits: { }
+       cpu: 3500m
+       memory: 6Gi
+    requests: { }
+       cpu: 1000m
+       memory: 6Gi
